@@ -1,0 +1,148 @@
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+
+
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--Pale-blue);
+}
+
+.container {
+    background-color: var(--Very-pale-blue);
+    width: 400px;
+    height: 570px;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    max-width: 100%;
+}
+
+.container header img {
+    background-image: url(../images/illustration-hero.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+
+.container p {
+    color: #777;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.container .box-1 {
+    background-color: var(--very-Pale-blue);
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    position: relative;
+    margin: 20px auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.container .box-1 i {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    margin-right: 20px;
+}
+
+.container .box-1 .text {
+    position: absolute;
+    top: -5px;
+    left: 30px;
+    margin-left: 40px;
+}
+
+.container .box-1 .text h4 {
+    margin-bottom: 0;
+}
+
+.container .box-1 .text p {
+    margin-top: 0px;
+}
+
+.container .box-1 a {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    color: var(--Bright-blue);
+    cursor: pointer;
+}
+
+.container button.frist-btn {
+    display: block;
+    margin: 20px auto;
+    background-color: var(--Bright-blue);
+    color: white;
+    border: 1px solid transparent;
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container button.second-btn {
+    background-color: var(--Pale-blue);
+    border: 1px solid transparent;
+    color: #777;
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
